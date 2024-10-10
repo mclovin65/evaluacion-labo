@@ -1,0 +1,46 @@
+.contendorform{
+    display: grid;
+ border: 1px solid black;
+ border-radius: 10px;
+    grid-template-rows: repeat(3,1fr);
+    
+    margin: 10px 10px;
+}
+.div1{
+    margin: 10px 10px;
+    width: 250px;
+    border: 1px solid black;
+    grid-row: 2;
+    border-radius: 10px;
+}
+.div2{
+    margin: 10px 10px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.comentario{
+
+    margin: 10px 10px;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.btn{
+    margin: 10px  ;
+    gap: 10px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+.textobtn{
+    font-size: 17px;
+}
+
+.tituloform{
+    margin: 10px 10px;
+    font-size: 17px;
+}
