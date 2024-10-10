@@ -1,6 +1,10 @@
 import { navBarDiv } from "./componentes/componente1/componente1.js";
+
 import { section2 } from "./componentes/componente2/componente2.js";
 import { contendorform } from "./componentes/componente3/componente3.js";
+
+
+
 let DOM = document.querySelector("#root");
 
 
@@ -18,3 +22,7 @@ let formulario=document.createElement(`section`);
 formulario.className="formulario";
 formulario.appendChild(contendorform);
 DOM.appendChild(formulario);
+
+
+
+
