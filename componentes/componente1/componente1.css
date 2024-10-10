@@ -1,0 +1,13 @@
+.iv{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+.img-logo{
+    width: 4rem;
+}
+.h2{
+    flex-direction: column;
+}
